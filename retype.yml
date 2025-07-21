@@ -1,0 +1,118 @@
+poweredByRetype: true
+
+breadcrumb:
+  home: ":icon-home:"
+
+scheme:
+  mode: system
+
+toc:
+  label: On this page
+  depth: 2-4  
+
+nav:
+  mode: stack
+  icons:
+    mode: pages
+
+theme:
+  base:
+    # Sky blue theme
+    base-color: "#2c3e50"           # Deep slate blue
+    base-bg: "#e0f7fa"              # Light cyan
+    primary: "#2980b9"              # Bright blue
+    success: "#27ae60"              # Vibrant green
+    danger: "#e74c3c"               # Rich red
+    warning: "#f39c12"              # Warm orange-yellow
+    royal: "#8a2be2"                # Bright violet
+    accent: "#4472C4"               # Darker, more saturated blue
+    base-link: "#075985"            # Darker blue link color
+    base-link-hover: "#054467"      # Slightly darker hover
+    base-link-weight: 600
+    nav-item-text-active-weight: 800
+    image-rounded: 1rem
+
+  dark:
+    # Midnight dark blue theme
+    base-color: "#1a202c"            # Darker dark blue
+    base-bg: "#212529"              # Very dark gray for contrast
+    primary: "#007bff"              #  Bright blue
+    success: "#28a745"              #  Green
+    danger: "#dc3545"               #  Red
+    warning: "#ffc107"              #  Yellow
+    royal: "#6c757d"                # Light gray
+    accent: "#2980b9"               #  Bright blue - same as base theme for consistency.
+    base-link: "#075985"            # Dark blue link color - same as base theme
+    base-link-hover: "#054467"      # Slightly darker hover - same as base theme
+    base-link-weight: 600
+    nav-item-text-active-weight: 800
+    image-rounded: 1rem
+
+# Start in "Pro Mode" trial
+start:
+  pro: true
+
+input: ./src
+output: .retype
+url: profilie.github.io
+branding:
+  title: Profilie Docs
+  logo: /media/logo.png
+  logoAlign: left
+  colors:
+    label:
+      text: "#ffffff"
+      background: "#0A5966"
+links:
+  - text: Home
+    link: https://profilie.github.io/docs
+    icon: home
+  - text: Website
+    link: https://profilie.github.io/
+    icon: globe
+  - text: Support
+    link: https://github.com/profilie/profilie/issues
+    icon: comment-discussion
+    target: blank
+  - text: Community
+    link: https://github.com/profilie/profilie/discussions
+    icon: people
+    target: blank
+  - text: GitHub
+    link: https://github.com/profilie/
+    icon: mark-github
+    target: blank
+edit:
+  repo: "https://github.com/profilie/docs"
+  base: "/src"
+  branch: "main"
+  label: "Edit this page"
+editor:
+  enabled: true
+favicon: /media/logo.png
+generator:
+  recase: all
+markdown:
+  lineBreaks: soft
+meta:
+  title: " | Profilie Documentation"
+
+snippets:
+  lineNumbers:
+    - js
+    - none
+templating:
+  enabled: true
+  liquid: false
+footer:
+  copyright: "&copy; 2025 Profilie. All rights reserved. Simple templates for beautiful social profiles."
+  links:
+    - text: Website
+      link: https://profilie.github.io
+      icon: globe
+    - text: Support
+      link: https://github.com/profilie/profilie/issues
+      icon: comment-discussion
+    - text: FAQ
+      link: https://profilie.github.io/faq
+      icon: question
