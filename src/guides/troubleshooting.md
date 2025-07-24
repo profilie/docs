@@ -1,19 +1,18 @@
 ---
 icon: alert
+label: Troubleshooting
 nav:
   badge: NEW|info
 tags: [guide]
 ---
 
-# Troubleshooting Guide
+# Troubleshooting
 
 If you encounter any problems while setting up or running your Profilie website, this comprehensive guide will help you quickly identify and resolve common issues.  
 
 Follow the steps below to troubleshoot and get your project back on track.
 
----
-
-### **IMPORTANT:**  
+**IMPORTANT:**  
 !!!danger  
 **Make sure your `config.js` is correctly configured!**  
 Most problems stem from configuration errors. Double-check your setup before proceeding.
@@ -38,7 +37,7 @@ This error typically indicates that your `config.js` is not properly configured 
 ---
 
 #### Sample Error Message:  
-![JavaScript Loading Error](media/javascript-loading-error.png)
+![](https://profilie.github.io/docs/media/javascript-loading-error.png)
 
 ---
 
