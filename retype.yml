@@ -19,31 +19,27 @@ theme:
   base:
     # Sky blue light theme
     base-color: "#1e293b"           # Dark slate for excellent readability
-    base-bg: "#e0f7fa"              # Your specified light cyan background
-    primary: "#0284c7"              # Sky blue primary
-    success: "#059669"              # Emerald green
-    danger: "#dc2626"               # Red
-    warning: "#ea580c"              # Orange
-    royal: "#7c3aed"                # Violet
-    accent: "#0369a1"               # Darker sky blue accent
-    base-link: "#0c4a6e"            # Deep sky blue for links
-    base-link-hover: "#0284c7"      # Brighter sky blue on hover
+    base-bg: "#e0f7fa"              # Light cyan background - serene sky
+    primary: "#0284c7"              # Sky blue - clear day brilliance
+    success: "#059669"              # Emerald green - fresh and natural
+    danger: "#dc2626"               # Vibrant red - bold and clear
+    warning: "#ea580c"              # Warm orange - sunset glow
+    royal: "#7c3aed"                # Deep violet - majestic depth
+    accent: "#0369a1"               # Deeper sky blue - ocean depths
     base-link-weight: 600
     nav-item-text-active-weight: 800
     image-rounded: 1rem
 
   dark:
-    # Sky blue dark theme
-    base-color: "#f1f5f9"           # Light slate text
-    base-bg: "#212529"              # Your specified dark background
-    primary: "#38bdf8"              # Bright sky blue
-    success: "#22d3ee"              # Cyan (complementary to sky blue)
-    danger: "#f87171"               # Soft red for dark theme
-    warning: "#fb923c"              # Warm orange
-    royal: "#a78bfa"                # Light violet
-    accent: "#0ea5e9"               # Sky blue accent
-    base-link: "#7dd3fc"            # Light sky blue for links
-    base-link-hover: "#bae6fd"      # Even lighter sky blue on hover
+    # Midnight sky theme
+    base-color: "#f1f5f9"           # Light slate - moonlit clarity
+    base-bg: "#0f172a"              # Deep slate - night sky depths
+    primary: "#38bdf8"              # Bright sky blue - electric azure
+    success: "#22d3ee"              # Cyan - crystalline waters
+    danger: "#f87171"               # Soft coral - gentle warning
+    warning: "#fb923c"              # Amber glow - warm starlight
+    royal: "#a78bfa"                # Light violet - ethereal mystery
+    accent: "#0ea5e9"               # Sky blue accent - celestial bright
     base-link-weight: 600
     nav-item-text-active-weight: 800
     image-rounded: 1rem
@@ -54,7 +50,7 @@ start:
 
 input: ./src
 output: .retype
-url: profilie.github.io
+url: profilie.github.io/docs
 branding:
   title: Profilie Docs
   logo: /media/logo.png
