@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://profilie.github.io/sitemap.xml.gz
+Sitemap: https://profilie.github.io/docs/sitemap.xml.gz
